@@ -1,0 +1,177 @@
+
+* {
+   margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+}
+
+.navbar-content {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+
+
+
+
+}
+h1 {
+font-weight: 500;
+}
+
+.links a {
+    margin-right: 40px;
+    cursor: pointer;
+    font-family:"Ubuntu", sans-serif;
+    fontWeight: bold;
+    font-size: 17px;
+
+}
+.links a:active {
+     color: #000;
+}
+.links a:hover {
+     color: #000;
+}
+
+.authenticate {
+
+    width: 270px;
+}
+.login-btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-Weight: bold;
+
+}
+
+.logo {
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.logos {
+    width: 100px;
+
+    vertical-align: center;
+}
+
+.home-links {
+text-decoration: none;
+color: #000;
+}
+.product-links {
+    text-decoration: none;
+    color: grey;
+}
+
+.service-links {
+text-decoration: none;
+color: grey;
+}
+.features-links {
+    text-decoration: none;
+    color: grey;
+
+
+}
+.whole-body {
+    height: 500px;
+
+
+}
+
+.top-title {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+
+}
+
+.title-content {
+
+    width: 300px;
+    display: flex;
+
+     align-items: center;
+      gap:  10px;
+}
+.btn-new {
+    background-color: black;
+    padding: 5px 11px;
+    border-radius: 30px;
+    color: #fff;
+
+}
+
+.arrow {
+    font-Weight: bold;
+   padding-left: 10px;
+}
+
+.title-page-body {
+
+}
+.day {
+    font-size: 60px;
+    width: 880px;
+
+
+}
+
+
+.put-center {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 145px;
+}
+.subtitle {
+    text-align: center;
+    padding-top: 20px;
+
+    width: 650px;
+    color: grey;
+    font-weight: 400;
+
+}
+
+.sub-center {
+    display: grid;
+    justify-items: center;
+}
+
+.button-landing-page {
+    padding-top: 30px;
+}
+.button-landing-page button {
+
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        color: #fff;
+        background-color: #000;
+
+}
+.Dashboard {
+
+    padding-top: 20px;
+
+}
+
+.Dashboard img {
+    width: 1000px;
+    height: 550px;
+
+}
