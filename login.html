@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/style/login.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <script
+            src="https://kit.fontawesome.com/73dce52d8a.js"
+            crossorigin="anonymous"
+    ></script>
+
+    <script defer src="/Javascript/login.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="form-box" id="form-box">
+        <h1 id="title">Sign Up</h1>
+        <form action="/">
+            <div class="input-group">
+                <div class="input-field" id="nameField">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Firstname" required />
+                    <div class="error" id="firstnameError"></div>
+                </div>
+
+                <div class="input-field" id="nameField2">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Lastname" required />
+                    <div class="error" id="LastnameError"></div>
+                </div>
+
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Email" required />
+                    <div class="error" id="emailError"></div>
+                </div>
+
+
+
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password" required />
+                    <div class="error" id="passwordError"></div>
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Confirm Password" required />
+                    <div class="error" id="confirmpasswordError"></div>
+                </div>
+                <div class="input-field" id="nameField5">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" placeholder="Phone Number" required />
+                    <div class="error" id="phoneNumberError"></div>
+                </div>
+                <div class="input-field" id="nameField3">
+                    <i class="fa-solid fa-flag"></i>
+                    <input type="text" placeholder="Country" required />
+                    <div class="error" id="countryError"></div>
+                </div>
+                <div class="input-field" id="nameField4">
+                    <i class="fa-solid fa-map"></i>
+                    <input type="text" placeholder="Address" required />
+                    <div class="error" id="addressError"></div>
+                </div>
+
+
+                <p>Forgot password <a href="#">Click Here!</a></p>
+                <div class="login">
+                    <button type="button" id="loginBtn">Sign Up</button>
+                </div>
+            </div>
+
+            <div class="btn-field">
+                <button type="button" id="signupBtn">Create Account</button>
+
+                <button type="button" id="signinBtn" class="disable">
+                    Sign In
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
